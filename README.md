@@ -6,24 +6,15 @@ Are you ready to level up your JavaScript knowledge? JavaScript QuizMaster is a 
 9 Comprehensive Categories 🎯
 From General Concepts to Advanced Topics, challenge yourself in:
 
-
-General Knowledge
-
-Functions & Variables
-
-Objects
-
-Classes
-
-Scope & Context
-
-Arrays
-
-Array Iteration Methods
-
-Operators & Conditions
-
-Loops
+- General Knowledge
+- Functions & Variables
+- Objects
+- Classes
+- Scope & Context
+- Arrays
+- Array Iteration Methods
+- Operators & Conditions
+- Loops
 
 Practice with a Timer ⏱
 Amp up the challenge with a countdown timer! Push your limits by answering under pressure, or turn off the timer for a more relaxed practice session.
