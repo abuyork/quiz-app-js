@@ -6,6 +6,7 @@ Are you ready to level up your JavaScript knowledge? JavaScript QuizMaster is a 
 9 Comprehensive Categories 🎯
 From General Concepts to Advanced Topics, challenge yourself in:
 
+
 General Knowledge
 Functions & Variables
 Objects
