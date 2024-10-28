@@ -1,0 +1,13 @@
+.quiz-title {
+  font-size: 1.5em;
+  transition: all 0.3s ease;
+}
+
+.quiz-title:hover {
+  color: #c8d645;  /* Semantic UI's teal color */
+  transform: scale(1.05);
+}
+
+.ui.inverted.menu {
+  background-color: rgba(0, 0, 0, 0.6) !important;  /* Reduced from 0.8 to 0.6 for more transparency */
+}

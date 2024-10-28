@@ -1,0 +1,1042 @@
+[
+  {
+    "category": "Functions and Variables",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What keyword is used to declare a variable that can be reassigned?",
+        "correct_answer": "let",
+        "incorrect_answers": ["const", "var", "def"]
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a function declaration?",
+        "correct_answer": "function myFunction() {}",
+        "incorrect_answers": ["const myFunction = () => {}", "let myFunction = function() {}", "myFunction: () =>{}"]
+      },
+      {
+        "id": 3,
+        "question": "What is the output of: console.log(typeof function(){})?",
+        "correct_answer": "function",
+        "incorrect_answers": ["object", "undefined", "string"]
+      },
+      {
+        "id": 4,
+        "question": "Which variable declaration is hoisted with an initial value of undefined?",
+        "correct_answer": "var",
+        "incorrect_answers": ["let", "const", "none of these"]
+      },
+      {
+        "id": 5,
+        "question": "What is the correct way to declare a constant variable?",
+        "correct_answer": "const x = 5;",
+        "incorrect_answers": ["let x = 5;", "var x = 5;", "constant x = 5;"]
+      },
+      {
+        "id": 6,
+        "question": "What is the output of: console.log(typeof NaN)?",
+        "correct_answer": "number",
+        "incorrect_answers": ["NaN", "undefined", "string"]
+      },
+      {
+        "id": 7,
+        "question": "Which is a valid arrow function syntax?",
+        "correct_answer": "const add = (a, b) => a + b;",
+        "incorrect_answers": ["const add => (a, b) = a + b;", "const add = (a, b) -> a + b;", "function add = (a, b) => a + b;"]
+      },
+      {
+        "id": 8,
+        "question": "What happens when you declare a variable without var, let, or const?",
+        "correct_answer": "It becomes a global variable",
+        "incorrect_answers": ["It becomes a local variable", "It throws an error", "It becomes undefined"]
+      },
+      {
+        "id": 9,
+        "question": "What is the scope of a variable declared with 'let'?",
+        "correct_answer": "Block scope",
+        "incorrect_answers": ["Function scope", "Global scope", "Module scope"]
+      },
+      {
+        "id": 10,
+        "question": "Which statement about function parameters is true?",
+        "correct_answer": "Parameters are variables that are local to the function",
+        "incorrect_answers": ["Parameters must be declared with let or const", "Parameters are always required", "Parameters are global variables"]
+      },
+      {
+        "id": 11,
+        "question": "What is the result of: typeof undefined?",
+        "correct_answer": "undefined",
+        "incorrect_answers": ["object", "null", "string"]
+      },
+      {
+        "id": 12,
+        "question": "How do you declare a function expression?",
+        "correct_answer": "const myFunc = function() {};",
+        "incorrect_answers": ["function = myFunc() {}", "let function = myFunc() {}", "const function => myFunc() {}"]
+      },
+      {
+        "id": 13,
+        "question": "What is the default return value of a function if no return statement is specified?",
+        "correct_answer": "undefined",
+        "incorrect_answers": ["null", "0", "false"]
+      },
+      {
+        "id": 14,
+        "question": "Which variable declaration allows reassignment?",
+        "correct_answer": "Both var and let",
+        "incorrect_answers": ["Only const", "Only var", "None of these"]
+      },
+      {
+        "id": 15,
+        "question": "What is a pure function?",
+        "correct_answer": "A function that always returns the same output for the same input",
+        "incorrect_answers": ["A function without parameters", "A function that modifies global variables", "A function that uses arrow syntax"]
+      },
+      {
+        "id": 16,
+        "question": "What is the temporal dead zone (TDZ)?",
+        "correct_answer": "The period between entering scope and variable declaration where let/const cannot be accessed",
+        "incorrect_answers": ["The time when variables are garbage collected", "The scope of var declarations", "The period when functions are hoisted"]
+      },
+      {
+        "id": 17,
+        "question": "What is function hoisting?",
+        "correct_answer": "Function declarations are moved to the top of their scope",
+        "incorrect_answers": ["Functions are removed from memory", "Functions are converted to arrow syntax", "Functions are made global"]
+      },
+      {
+        "id": 18,
+        "question": "What is the difference between parameters and arguments?",
+        "correct_answer": "Parameters are in function definition, arguments are values passed to function",
+        "incorrect_answers": ["They are the same thing", "Parameters are optional, arguments are required", "Arguments are in function definition, parameters are passed values"]
+      },
+      {
+        "id": 19,
+        "question": "What is a callback function?",
+        "correct_answer": "A function passed as an argument to another function",
+        "incorrect_answers": ["A function that returns another function", "A function that calls itself", "A function with no parameters"]
+      },
+      {
+        "id": 20,
+        "question": "What is the 'arguments' object in a function?",
+        "correct_answer": "An array-like object containing all passed arguments",
+        "incorrect_answers": ["A regular array of arguments", "The parameters defined in the function", "A global object containing function arguments"]
+      },
+      {
+        "id": 21,
+        "question": "What is variable shadowing?",
+        "correct_answer": "When a variable in a scope has the same name as a variable in an outer scope",
+        "incorrect_answers": ["When a variable is undefined", "When a variable is hoisted", "When a variable is declared twice"]
+      },
+      {
+        "id": 22,
+        "question": "What is the difference between null and undefined?",
+        "correct_answer": "undefined means a variable is declared but not assigned, null is an assigned value",
+        "incorrect_answers": ["They are exactly the same", "null is not a valid value", "undefined is not a valid value"]
+      },
+      {
+        "id": 23,
+        "question": "What is a default parameter?",
+        "correct_answer": "A parameter that is given a default value if no argument is passed",
+        "incorrect_answers": ["The first parameter in a function", "A required parameter", "A parameter that cannot be changed"]
+      },
+      {
+        "id": 24,
+        "question": "What is the rest parameter syntax?",
+        "correct_answer": "...args",
+        "incorrect_answers": ["*args", "&args", "...rest"]
+      },
+      {
+        "id": 25,
+        "question": "What is function composition?",
+        "correct_answer": "Combining two or more functions to create a new function",
+        "incorrect_answers": ["Writing a function declaration", "Calling a function inside another function", "Creating an arrow function"]
+      },
+      {
+        "id": 26,
+        "question": "What is the difference between var and let?",
+        "correct_answer": "var is function-scoped, let is block-scoped",
+        "incorrect_answers": ["var is block-scoped, let is function-scoped", "There is no difference", "var is deprecated, let is modern"]
+      }
+    ]
+  },
+  {
+    "category": "Objects",
+    "questions": [
+      {
+        "id": 27,
+        "question": "What is the correct way to create an object in JavaScript?",
+        "correct_answer": "const obj = {};",
+        "incorrect_answers": ["const obj = []", "const obj = ()", "const obj = ``"]
+      },
+      {
+        "id": 28,
+        "question": "How do you access a property named 'age' in an object 'person'?",
+        "correct_answer": "person.age",
+        "incorrect_answers": ["person[age]", "person->age", "person::age"]
+      },
+      {
+        "id": 29,
+        "question": "What is object destructuring?",
+        "correct_answer": "A way to extract properties from objects into variables",
+        "incorrect_answers": ["A way to delete object properties", "A way to combine objects", "A way to clone objects"]
+      },
+      {
+        "id": 30,
+        "question": "What method is used to get all keys of an object?",
+        "correct_answer": "Object.keys()",
+        "incorrect_answers": ["Object.getKeys()", "Object.properties()", "Object.names()"]
+      },
+      {
+        "id": 31,
+        "question": "What is the output of: typeof null?",
+        "correct_answer": "object",
+        "incorrect_answers": ["null", "undefined", "string"]
+      },
+      {
+        "id": 32,
+        "question": "How do you check if a property exists in an object?",
+        "correct_answer": "'propertyName' in object",
+        "incorrect_answers": ["object.hasProperty()", "object.contains()", "object.exists()"]
+      },
+      {
+        "id": 33,
+        "question": "What method creates a new object with the specified prototype object and properties?",
+        "correct_answer": "Object.create()",
+        "incorrect_answers": ["Object.new()", "Object.assign()", "Object.make()"]
+      },
+      {
+        "id": 34,
+        "question": "What is the spread operator used for with objects?",
+        "correct_answer": "To create a shallow copy or merge objects",
+        "incorrect_answers": ["To delete object properties", "To sort object properties", "To validate objects"]
+      },
+      {
+        "id": 35,
+        "question": "How do you prevent modifications to an object?",
+        "correct_answer": "Object.freeze()",
+        "incorrect_answers": ["Object.seal()", "Object.lock()", "Object.close()"]
+      },
+      {
+        "id": 36,
+        "question": "What is a method in an object?",
+        "correct_answer": "A property containing a function",
+        "incorrect_answers": ["A property containing a string", "A property containing an array", "A property containing another object"]
+      },
+      {
+        "id": 37,
+        "question": "What does Object.seal() do?",
+        "correct_answer": "Prevents adding new properties but allows modifying existing ones",
+        "incorrect_answers": ["Prevents all modifications to the object", "Only prevents deleting properties", "Makes the object null"]
+      },
+      {
+        "id": 38,
+        "question": "What is the 'this' keyword in an object method?",
+        "correct_answer": "A reference to the object that owns the method",
+        "incorrect_answers": ["A reference to the global object", "A reference to the parent object", "A reference to the window object"]
+      }
+    ]
+  },
+  {
+    "category": "Classes",
+    "questions": [
+      {
+        "id": 39,
+        "question": "What is the correct way to declare a class in JavaScript?",
+        "correct_answer": "class MyClass {}",
+        "incorrect_answers": ["function MyClass {}", "class = MyClass {}", "new class MyClass {}"]
+      },
+      {
+        "id": 40,
+        "question": "How do you create an instance of a class?",
+        "correct_answer": "const obj = new MyClass();",
+        "incorrect_answers": ["const obj = MyClass();", "const obj = create MyClass();", "const obj = MyClass.new();"]
+      },
+      {
+        "id": 41,
+        "question": "What is the constructor method used for?",
+        "correct_answer": "To initialize class properties when creating an instance",
+        "incorrect_answers": ["To define class methods", "To inherit from another class", "To delete class properties"]
+      },
+      {
+        "id": 42,
+        "question": "How do you define a static method in a class?",
+        "correct_answer": "static methodName() {}",
+        "incorrect_answers": ["public static methodName() {}", "class.static methodName() {}", "@static methodName() {}"]
+      },
+      {
+        "id": 43,
+        "question": "What keyword is used for inheritance between classes?",
+        "correct_answer": "extends",
+        "incorrect_answers": ["inherit", "implements", "includes"]
+      },
+      {
+        "id": 44,
+        "question": "What is the super keyword used for in classes?",
+        "correct_answer": "To call methods of the parent class",
+        "incorrect_answers": ["To create a new instance", "To define static methods", "To access private properties"]
+      },
+      {
+        "id": 45,
+        "question": "What is encapsulation in classes?",
+        "correct_answer": "Bundling data and methods that operate on that data within a single unit",
+        "incorrect_answers": ["Creating multiple instances of a class", "Inheriting from parent class", "Defining static methods"]
+      },
+      {
+        "id": 46,
+        "question": "How do you declare a private field in a class?",
+        "correct_answer": "#propertyName",
+        "incorrect_answers": ["private propertyName", "_propertyName", "protected propertyName"]
+      },
+      {
+        "id": 47,
+        "question": "What is a getter method in a class?",
+        "correct_answer": "A method that retrieves the value of a property",
+        "incorrect_answers": ["A method that sets property values", "A static method", "A constructor method"]
+      },
+      {
+        "id": 48,
+        "question": "What is a setter method in a class?",
+        "correct_answer": "A method that sets the value of a property",
+        "incorrect_answers": ["A method that gets property values", "A private method", "A static method"]
+      },
+      {
+        "id": 49,
+        "question": "What is method overriding in classes?",
+        "correct_answer": "Redefining a method from the parent class in the child class",
+        "incorrect_answers": ["Creating multiple methods with the same name", "Defining static methods", "Creating private methods"]
+      },
+      {
+        "id": 50,
+        "question": "What is the purpose of the instanceof operator?",
+        "correct_answer": "To check if an object is an instance of a specific class",
+        "incorrect_answers": ["To create new instances", "To inherit from a class", "To define class methods"]
+      },
+      {
+        "id": 51,
+        "question": "What is polymorphism in classes?",
+        "correct_answer": "The ability of objects to take different forms",
+        "incorrect_answers": ["The ability to create multiple instances", "The ability to inherit properties", "The ability to hide data"]
+      },
+      {
+        "id": 52,
+        "question": "What happens if you don't define a constructor method?",
+        "correct_answer": "A default constructor is automatically created",
+        "incorrect_answers": ["The class throws an error", "The class cannot be instantiated", "The parent constructor is called"]
+      },
+      {
+        "id": 53,
+        "question": "How do you check if a property exists in a class instance?",
+        "correct_answer": "propertyName in instance",
+        "incorrect_answers": ["instance.hasProperty(propertyName)", "instance.contains(propertyName)", "instance.exists(propertyName)"]
+      },
+      {
+        "id": 54,
+        "question": "What is abstraction in classes?",
+        "correct_answer": "Hiding complex implementation details and showing only necessary features",
+        "incorrect_answers": ["Creating multiple instances", "Inheriting from other classes", "Defining private methods"]
+      },
+      {
+        "id": 55,
+        "question": "Can a class extend multiple classes in JavaScript?",
+        "correct_answer": "No, JavaScript only supports single inheritance",
+        "incorrect_answers": ["Yes, using multiple extends keywords", "Yes, using the implements keyword", "Yes, using mixins"]
+      },
+      {
+        "id": 56,
+        "question": "What is a static property in a class?",
+        "correct_answer": "A property that belongs to the class itself, not instances",
+        "incorrect_answers": ["A private property", "A property that cannot change", "A property shared between instances"]
+      },
+      {
+        "id": 57,
+        "question": "How do you call a parent class method from a child class?",
+        "correct_answer": "super.methodName()",
+        "incorrect_answers": ["parent.methodName()", "this.parent.methodName()", "base.methodName()"]
+      },
+      {
+        "id": 58,
+        "question": "What is the difference between class declaration and class expression?",
+        "correct_answer": "Class declarations are not hoisted, class expressions can be anonymous",
+        "incorrect_answers": ["There is no difference", "Class expressions cannot have methods", "Class declarations cannot be extended"]
+      },
+      {
+        "id": 59,
+        "question": "What is a mixin in JavaScript classes?",
+        "correct_answer": "A way to add methods to classes without inheritance",
+        "incorrect_answers": ["A type of constructor", "A private property", "A static method"]
+      },
+      {
+        "id": 60,
+        "question": "How do you make a read-only property in a class?",
+        "correct_answer": "Define a getter without a setter",
+        "incorrect_answers": ["Use the readonly keyword", "Make it private", "Use Object.freeze()"]
+      },
+      {
+        "id": 61,
+        "question": "What is the purpose of the constructor.name property?",
+        "correct_answer": "It returns the name of the class",
+        "incorrect_answers": ["It returns the instance name", "It returns the parent class name", "It returns the number of instances"]
+      },
+      {
+        "id": 62,
+        "question": "How do you check if a method exists in a class?",
+        "correct_answer": "typeof instance.methodName === 'function'",
+        "incorrect_answers": ["instance.hasMethod(methodName)", "methodName in instance.methods", "instance.containsMethod(methodName)"]
+      },
+      {
+        "id": 63,
+        "question": "What is the difference between static and instance methods?",
+        "correct_answer": "Static methods belong to the class, instance methods belong to instances",
+        "incorrect_answers": ["There is no difference", "Static methods are private", "Instance methods are private"]
+      },
+      {
+        "id": 64,
+        "question": "What happens when you return a value from a constructor?",
+        "correct_answer": "The return value is ignored if it's not an object",
+        "incorrect_answers": ["It becomes the instance", "It throws an error", "It becomes a property"]
+      },
+      {
+        "id": 65,
+        "question": "How do you create a singleton using a class?",
+        "correct_answer": "Return a cached instance if it exists in the constructor",
+        "incorrect_answers": ["Use the singleton keyword", "Make all methods static", "Use private properties"]
+      },
+      {
+        "id": 66,
+        "question": "What is the purpose of Symbol.species?",
+        "correct_answer": "To control what constructor is used for derived objects",
+        "incorrect_answers": ["To create unique property keys", "To define private methods", "To implement interfaces"]
+      },
+      {
+        "id": 67,
+        "question": "How do you implement method chaining in a class?",
+        "correct_answer": "Return this at the end of methods",
+        "incorrect_answers": ["Use the chain keyword", "Return new instances", "Use static methods"]
+      },
+      {
+        "id": 68,
+        "question": "What is the purpose of Object.getPrototypeOf()?",
+        "correct_answer": "To get the prototype of an instance",
+        "incorrect_answers": ["To get the class name", "To get private properties", "To get static methods"]
+      },
+      {
+        "id": 69,
+        "question": "How do you prevent a class from being instantiated?",
+        "correct_answer": "Throw an error in the constructor if new.target is the class itself",
+        "incorrect_answers": ["Use the abstract keyword", "Make the constructor private", "Use Object.freeze()"]
+      },
+      {
+        "id": 70,
+        "question": "What is the purpose of the static initialization block?",
+        "correct_answer": "To perform complex static initialization",
+        "incorrect_answers": ["To define instance methods", "To create private properties", "To implement interfaces"]
+      }
+    ]
+  },
+  {
+    "category": "Scope and Contexts",
+    "questions": [
+      {
+        "id": 71,
+        "question": "What is lexical scope in JavaScript?",
+        "correct_answer": "The scope of variables determined by their location within the source code",
+        "incorrect_answers": [
+          "The scope of variables determined at runtime",
+          "The scope of variables in the global context",
+          "The scope of variables in a function"
+        ]
+      },
+      {
+        "id": 72,
+        "question": "What is the value of 'this' in a regular function in strict mode?",
+        "correct_answer": "undefined",
+        "incorrect_answers": [
+          "window object",
+          "global object",
+          "the function itself"
+        ]
+      },
+      {
+        "id": 73,
+        "question": "How does 'this' behave in an arrow function?",
+        "correct_answer": "It inherits 'this' from the enclosing scope",
+        "incorrect_answers": [
+          "It creates its own 'this' binding",
+          "It always refers to the global object",
+          "It always refers to undefined"
+        ]
+      },
+      {
+        "id": 74,
+        "question": "What is closure in JavaScript?",
+        "correct_answer": "A function that has access to variables in its outer scope",
+        "incorrect_answers": [
+          "A function that has no access to outer variables",
+          "A function that only has access to global variables",
+          "A function that creates private variables"
+        ]
+      },
+      {
+        "id": 75,
+        "question": "What is the execution context in JavaScript?",
+        "correct_answer": "The environment in which JavaScript code is executed",
+        "incorrect_answers": [
+          "The scope of a function",
+          "The global scope only",
+          "The browser's JavaScript engine"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Operators & Conditions",
+    "questions": [
+      {
+        "id": 175,
+        "question": "What is the difference between == and === operators?",
+        "correct_answer": "=== checks both value and type, == only checks value",
+        "incorrect_answers": ["They are the same", "=== is faster", "== is more strict"]
+      },
+      {
+        "id": 176,
+        "question": "What is the result of 5 + '5'?",
+        "correct_answer": "\"55\"",
+        "incorrect_answers": ["10", "\"10\"", "Error"]
+      },
+      {
+        "id": 177,
+        "question": "What does the && operator do?",
+        "correct_answer": "Returns the first falsy value or the last value if all are truthy",
+        "incorrect_answers": ["Always returns true or false", "Only works with booleans", "Same as ||"]
+      },
+      {
+        "id": 178,
+        "question": "What is the result of !true?",
+        "correct_answer": "false",
+        "incorrect_answers": ["true", "undefined", "null"]
+      },
+      {
+        "id": 179,
+        "question": "What is short-circuit evaluation?",
+        "correct_answer": "When the second operand is only evaluated if necessary",
+        "incorrect_answers": ["When both operands are evaluated", "When no operands are evaluated", "When using === operator"]
+      },
+      {
+        "id": 180,
+        "question": "What is the nullish coalescing operator (??)?",
+        "correct_answer": "Returns right operand when left is null/undefined",
+        "incorrect_answers": ["Same as ||", "Same as &&", "Returns left operand always"]
+      },
+      {
+        "id": 181,
+        "question": "What is the result of 'hello' && 0?",
+        "correct_answer": "0",
+        "incorrect_answers": ["'hello'", "true", "false"]
+      },
+      {
+        "id": 182,
+        "question": "What does the ternary operator look like?",
+        "correct_answer": "condition ? expr1 : expr2",
+        "incorrect_answers": ["if ? then : else", "condition ?? expr1 : expr2", "condition || expr1 : expr2"]
+      },
+      {
+        "id": 183,
+        "question": "What is the result of 5 > 4 > 3?",
+        "correct_answer": "false",
+        "incorrect_answers": ["true", "undefined", "Error"]
+      },
+      {
+        "id": 184,
+        "question": "What is the optional chaining operator (?.)?",
+        "correct_answer": "Safely accesses nested object properties",
+        "incorrect_answers": ["Same as dot operator", "Checks if property exists", "Combines objects"]
+      },
+      {
+        "id": 185,
+        "question": "What is the result of typeof null?",
+        "correct_answer": "\"object\"",
+        "incorrect_answers": ["\"null\"", "\"undefined\"", "null"]
+      },
+      {
+        "id": 186,
+        "question": "What does the || operator return?",
+        "correct_answer": "First truthy value or last value",
+        "incorrect_answers": ["Always boolean", "First falsy value", "Last truthy value"]
+      },
+      {
+        "id": 187,
+        "question": "What is the result of 1 + true?",
+        "correct_answer": "2",
+        "incorrect_answers": ["1", "true", "\"1true\""]
+      },
+      {
+        "id": 188,
+        "question": "What is the difference between prefix and postfix increment?",
+        "correct_answer": "Prefix returns new value, postfix returns original",
+        "incorrect_answers": ["No difference", "Prefix is faster", "Postfix is more common"]
+      },
+      {
+        "id": 189,
+        "question": "What is the result of '5' - 3?",
+        "correct_answer": "2",
+        "incorrect_answers": ["'2'", "8", "Error"]
+      },
+      {
+        "id": 190,
+        "question": "What is type coercion?",
+        "correct_answer": "Automatic conversion of values to different types",
+        "incorrect_answers": ["Manual type conversion", "Type checking", "Type declaration"]
+      },
+      {
+        "id": 191,
+        "question": "What is the result of Boolean('')?",
+        "correct_answer": "false",
+        "incorrect_answers": ["true", "undefined", "''"]
+      },
+      {
+        "id": 192,
+        "question": "What is the bitwise AND operator?",
+        "correct_answer": "&",
+        "incorrect_answers": ["&&", "|", "||"]
+      },
+      {
+        "id": 193,
+        "question": "What is the result of 'b' + 'a' + + 'a'?",
+        "correct_answer": "\"baNaN\"",
+        "incorrect_answers": ["\"baa\"", "\"ba\"", "NaN"]
+      },
+      {
+        "id": 194,
+        "question": "What does the in operator do?",
+        "correct_answer": "Checks if property exists in object",
+        "incorrect_answers": ["Checks array inclusion", "Compares values", "Combines objects"]
+      },
+      {
+        "id": 195,
+        "question": "What is the result of void 0?",
+        "correct_answer": "undefined",
+        "incorrect_answers": ["0", "null", "NaN"]
+      },
+      {
+        "id": 196,
+        "question": "What is the result of 3 ** 2?",
+        "correct_answer": "9",
+        "incorrect_answers": ["6", "5", "8"]
+      },
+      {
+        "id": 197,
+        "question": "What is the result of !!'false'?",
+        "correct_answer": "true",
+        "incorrect_answers": ["false", "undefined", "'false'"]
+      },
+      {
+        "id": 198,
+        "question": "What is the comma operator?",
+        "correct_answer": "Evaluates operands left to right, returns last operand",
+        "incorrect_answers": ["Combines arrays", "Joins strings", "Creates objects"]
+      },
+      {
+        "id": 199,
+        "question": "What is the result of 1 < 2 < 3?",
+        "correct_answer": "true",
+        "incorrect_answers": ["false", "undefined", "Error"]
+      },
+      {
+        "id": 200,
+        "question": "What is the result of '5' * '3'?",
+        "correct_answer": "15",
+        "incorrect_answers": ["'15'", "53", "Error"]
+      },
+      {
+        "id": 201,
+        "question": "What is the purpose of the delete operator?",
+        "correct_answer": "Removes property from object",
+        "incorrect_answers": ["Deletes variables", "Removes arrays", "Clears memory"]
+      },
+      {
+        "id": 202,
+        "question": "What is the result of typeof undefined?",
+        "correct_answer": "\"undefined\"",
+        "incorrect_answers": ["\"object\"", "undefined", "\"null\""]
+      },
+      {
+        "id": 203,
+        "question": "What is the result of 5 & 3?",
+        "correct_answer": "1",
+        "incorrect_answers": ["8", "2", "15"]
+      },
+      {
+        "id": 204,
+        "question": "What is the result of null ?? 'default'?",
+        "correct_answer": "'default'",
+        "incorrect_answers": ["null", "undefined", "true"]
+      },
+      {
+        "id": 205,
+        "question": "What is the result of 'hello'[0]?",
+        "correct_answer": "\"h\"",
+        "incorrect_answers": ["\"hello\"", "0", "undefined"]
+      },
+      {
+        "id": 206,
+        "question": "What is the result of +true?",
+        "correct_answer": "1",
+        "incorrect_answers": ["true", "\"true\"", "0"]
+      },
+      {
+        "id": 207,
+        "question": "What is the result of 'hello' > 'world'?",
+        "correct_answer": "false",
+        "incorrect_answers": ["true", "undefined", "Error"]
+      },
+      {
+        "id": 208,
+        "question": "What is the result of undefined || null || 0?",
+        "correct_answer": "0",
+        "incorrect_answers": ["undefined", "null", "false"]
+      },
+      {
+        "id": 209,
+        "question": "What is the result of 2 ** 3 ** 2?",
+        "correct_answer": "512",
+        "incorrect_answers": ["64", "72", "36"]
+      },
+      {
+        "id": 210,
+        "question": "What is the result of typeof NaN?",
+        "correct_answer": "\"number\"",
+        "incorrect_answers": ["\"NaN\"", "\"undefined\"", "\"object\""]
+      },
+      {
+        "id": 211,
+        "question": "What is the result of 'hello' && ''?",
+        "correct_answer": "''",
+        "incorrect_answers": ["'hello'", "true", "false"]
+      },
+      {
+        "id": 212,
+        "question": "What is the result of 1 === '1'?",
+        "correct_answer": "false",
+        "incorrect_answers": ["true", "undefined", "1"]
+      },
+      {
+        "id": 213,
+        "question": "What is the result of !'0'?",
+        "correct_answer": "false",
+        "incorrect_answers": ["true", "0", "'0'"]
+      },
+      {
+        "id": 214,
+        "question": "What is the result of null == undefined?",
+        "correct_answer": "true",
+        "incorrect_answers": ["false", "undefined", "null"]
+      },
+      {
+        "id": 215,
+        "question": "What is the result of 5 | 3?",
+        "correct_answer": "7",
+        "incorrect_answers": ["2", "15", "8"]
+      },
+      {
+        "id": 216,
+        "question": "What is the result of typeof typeof 1?",
+        "correct_answer": "\"string\"",
+        "incorrect_answers": ["\"number\"", "\"undefined\"", "\"object\""]
+      },
+      {
+        "id": 217,
+        "question": "What is the result of void(0)?",
+        "correct_answer": "undefined",
+        "incorrect_answers": ["0", "null", "NaN"]
+      },
+      {
+        "id": 218,
+        "question": "What is the result of 'hello'.length > 5?",
+        "correct_answer": "false",
+        "incorrect_answers": ["true", "undefined", "Error"]
+      },
+      {
+        "id": 219,
+        "question": "What is the result of 1 + + '2'?",
+        "correct_answer": "3",
+        "incorrect_answers": ["'12'", "12", "'3'"]
+      },
+      {
+        "id": 220,
+        "question": "What is the result of Boolean([])?",
+        "correct_answer": "true",
+        "incorrect_answers": ["false", "undefined", "[]"]
+      },
+      {
+        "id": 221,
+        "question": "What is the result of 'hello' ?? 'world'?",
+        "correct_answer": "'hello'",
+        "incorrect_answers": ["'world'", "null", "undefined"]
+      },
+      {
+        "id": 222,
+        "question": "What is the result of typeof []?",
+        "correct_answer": "\"object\"",
+        "incorrect_answers": ["\"array\"", "\"undefined\"", "[]"]
+      },
+      {
+        "id": 223,
+        "question": "What is the result of 0 || 'hello'?",
+        "correct_answer": "'hello'",
+        "incorrect_answers": ["0", "true", "false"]
+      },
+      {
+        "id": 224,
+        "question": "What is the result of null !== undefined?",
+        "correct_answer": "true",
+        "incorrect_answers": ["false", "undefined", "null"]
+      }
+    ]
+  },
+  {
+    "category": "Learn Loops",
+    "questions": [
+      {
+        "id": 225,
+        "question": "Which loop is used when you don't know how many times you need to loop?",
+        "correct_answer": "while loop",
+        "incorrect_answers": ["for loop", "do...while loop", "for...in loop"]
+      },
+      {
+        "id": 226,
+        "question": "What is the difference between while and do...while loops?",
+        "correct_answer": "do...while executes at least once",
+        "incorrect_answers": ["while executes at least once", "There is no difference", "do...while is faster"]
+      },
+      {
+        "id": 227,
+        "question": "What is the purpose of the break statement in loops?",
+        "correct_answer": "To exit the loop immediately",
+        "incorrect_answers": ["To skip one iteration", "To restart the loop", "To pause the loop"]
+      },
+      {
+        "id": 228,
+        "question": "What does the continue statement do in a loop?",
+        "correct_answer": "Skips to the next iteration",
+        "incorrect_answers": ["Exits the loop", "Pauses the loop", "Restarts the loop"]
+      },
+      {
+        "id": 229,
+        "question": "Which loop is best for iterating over array elements?",
+        "correct_answer": "for...of loop",
+        "incorrect_answers": ["for...in loop", "while loop", "do...while loop"]
+      },
+      {
+        "id": 230,
+        "question": "What is the purpose of for...in loop?",
+        "correct_answer": "To iterate over object properties",
+        "incorrect_answers": ["To iterate over arrays", "To count numbers", "To create infinite loops"]
+      },
+      {
+        "id": 231,
+        "question": "What happens if you modify an array while using for...of?",
+        "correct_answer": "The loop uses the modified array",
+        "incorrect_answers": ["The loop crashes", "The changes are ignored", "The loop ends immediately"]
+      },
+      {
+        "id": 232,
+        "question": "How do you create an infinite loop?",
+        "correct_answer": "while(true) {}",
+        "incorrect_answers": ["for(;;) {}", "loop(infinite) {}", "do...while(1) {}"]
+      },
+      {
+        "id": 233,
+        "question": "What is a nested loop?",
+        "correct_answer": "A loop inside another loop",
+        "incorrect_answers": ["A loop with multiple conditions", "A loop that never ends", "A loop with break statements"]
+      },
+      {
+        "id": 234,
+        "question": "What is the time complexity of a nested loop?",
+        "correct_answer": "O(n²) for two nested loops",
+        "incorrect_answers": ["O(n)", "O(1)", "O(log n)"]
+      },
+      {
+        "id": 235,
+        "question": "Can you use break in a for...of loop?",
+        "correct_answer": "Yes",
+        "incorrect_answers": ["No", "Only with arrays", "Only with objects"]
+      },
+      {
+        "id": 236,
+        "question": "What is label in JavaScript loops?",
+        "correct_answer": "An identifier for a loop that can be referenced by break/continue",
+        "incorrect_answers": ["A variable name", "A loop counter", "A loop condition"]
+      },
+      {
+        "id": 237,
+        "question": "How do you skip odd numbers in a for loop?",
+        "correct_answer": "Use continue with i % 2 === 1",
+        "incorrect_answers": ["Use break", "Use return", "Use if...else"]
+      },
+      {
+        "id": 238,
+        "question": "What is the difference between for...of and for...in?",
+        "correct_answer": "for...of iterates values, for...in iterates properties",
+        "incorrect_answers": ["They are the same", "for...of is faster", "for...in is newer"]
+      },
+      {
+        "id": 239,
+        "question": "Can you use await in a for loop?",
+        "correct_answer": "Yes, in a for...of loop",
+        "incorrect_answers": ["No, never", "Only in while loops", "Only in for...in loops"]
+      },
+      {
+        "id": 240,
+        "question": "What is the output of: for(var i=0; i<5; i++){} console.log(i)?",
+        "correct_answer": "5",
+        "incorrect_answers": ["4", "undefined", "Error"]
+      },
+      {
+        "id": 241,
+        "question": "How do you break out of multiple nested loops?",
+        "correct_answer": "Use labeled statements",
+        "incorrect_answers": ["Use multiple breaks", "Use return", "Use continue"]
+      },
+      {
+        "id": 242,
+        "question": "What is the purpose of the loop condition?",
+        "correct_answer": "To determine when to stop the loop",
+        "incorrect_answers": ["To initialize variables", "To update variables", "To execute code"]
+      },
+      {
+        "id": 243,
+        "question": "Can you use break with forEach()?",
+        "correct_answer": "No",
+        "incorrect_answers": ["Yes", "Sometimes", "Only with arrays"]
+      },
+      {
+        "id": 244,
+        "question": "What happens if you omit the initialization in a for loop?",
+        "correct_answer": "The loop uses existing variables",
+        "incorrect_answers": ["Syntax error", "The loop never runs", "The loop runs infinitely"]
+      },
+      {
+        "id": 245,
+        "question": "What is the best loop for counting?",
+        "correct_answer": "for loop",
+        "incorrect_answers": ["while loop", "do...while loop", "for...in loop"]
+      },
+      {
+        "id": 246,
+        "question": "How do you iterate backwards through an array?",
+        "correct_answer": "for(let i=arr.length-1; i>=0; i--)",
+        "incorrect_answers": ["for(let i=arr.length; i>0; i--)", "while(arr.length)", "for...of reversed"]
+      },
+      {
+        "id": 247,
+        "question": "What is the increment expression in a for loop?",
+        "correct_answer": "The expression that updates the counter",
+        "incorrect_answers": ["The initial value", "The condition", "The loop body"]
+      },
+      {
+        "id": 248,
+        "question": "Can you modify the iterator variable inside a for loop?",
+        "correct_answer": "Yes, but it's not recommended",
+        "incorrect_answers": ["No, never", "Only with let", "Only with var"]
+      },
+      {
+        "id": 249,
+        "question": "What happens if the condition is always true?",
+        "correct_answer": "Creates an infinite loop",
+        "incorrect_answers": ["The loop never runs", "Throws an error", "Skips the loop"]
+      },
+      {
+        "id": 250,
+        "question": "How do you loop through object values?",
+        "correct_answer": "for...of Object.values(obj)",
+        "incorrect_answers": ["for...in obj", "while(obj)", "forEach(obj)"]
+      },
+      {
+        "id": 251,
+        "question": "What is the scope of variables declared in a for loop?",
+        "correct_answer": "Block scope when using let",
+        "incorrect_answers": ["Global scope", "Function scope", "Module scope"]
+      },
+      {
+        "id": 252,
+        "question": "Can you use return in a forEach loop?",
+        "correct_answer": "Yes, but it only exits the current iteration",
+        "incorrect_answers": ["No", "Yes, it exits the loop", "Only with break"]
+      },
+      {
+        "id": 253,
+        "question": "What is the performance difference between for and forEach?",
+        "correct_answer": "for loop is generally faster",
+        "incorrect_answers": ["forEach is faster", "They are the same", "Depends on the browser"]
+      },
+      {
+        "id": 254,
+        "question": "How do you loop through a string?",
+        "correct_answer": "All of: for...of, traditional for, spread operator",
+        "incorrect_answers": ["Only with for loop", "Only with while", "Only with for...in"]
+      },
+      {
+        "id": 255,
+        "question": "What is the advantage of for...of over traditional for loop?",
+        "correct_answer": "Simpler syntax and handles iterables better",
+        "incorrect_answers": ["Better performance", "More flexible", "Works with objects"]
+      },
+      {
+        "id": 256,
+        "question": "How do you handle async operations in loops?",
+        "correct_answer": "Use async/await with for...of",
+        "incorrect_answers": ["Use regular for loop", "Use while loop", "Use for...in loop"]
+      },
+      {
+        "id": 257,
+        "question": "What is the difference between break and return in loops?",
+        "correct_answer": "return exits the function, break exits only the loop",
+        "incorrect_answers": ["They are the same", "break is faster", "return is only for functions"]
+      },
+      {
+        "id": 258,
+        "question": "Can you use const in a for loop?",
+        "correct_answer": "Yes, in the loop body",
+        "incorrect_answers": ["No, never", "Only with for...of", "Only with for...in"]
+      },
+      {
+        "id": 259,
+        "question": "What happens if you use for...in with an array?",
+        "correct_answer": "Iterates over array indices as strings",
+        "incorrect_answers": ["Iterates over values", "Throws an error", "Skips elements"]
+      },
+      {
+        "id": 260,
+        "question": "How do you loop through DOM elements?",
+        "correct_answer": "Use for...of with querySelectorAll result",
+        "incorrect_answers": ["Only with for loop", "Only with while", "Only with for...in"]
+      },
+      {
+        "id": 261,
+        "question": "What is the purpose of loop unrolling?",
+        "correct_answer": "To optimize performance by reducing loop iterations",
+        "incorrect_answers": ["To create infinite loops", "To handle async operations", "To skip iterations"]
+      },
+      {
+        "id": 262,
+        "question": "How do you break a loop when a condition is met?",
+        "correct_answer": "Use if condition with break",
+        "incorrect_answers": ["Use continue", "Use return", "Use throw"]
+      },
+      {
+        "id": 263,
+        "question": "What is the main difference between map and forEach?",
+        "correct_answer": "map returns a new array, forEach doesn't return anything",
+        "incorrect_answers": ["They are the same", "map is faster", "forEach is more flexible"]
+      },
+      {
+        "id": 264,
+        "question": "How do you handle errors in loops?",
+        "correct_answer": "Use try...catch inside the loop",
+        "incorrect_answers": ["Use if statements", "Use break", "Use continue"]
+      }
+    ]
+  }
+]
