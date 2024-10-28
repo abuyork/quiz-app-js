@@ -1,5 +1,9 @@
 # quiz-app-js
-![Screenshot_29-10-2024_6203_localhost](https://github.com/user-attachments/assets/c3db6f67-0926-40d5-8c4b-ebb0ecc48e7d)
+![Main-Page](https://github.com/user-attachments/assets/dd8dfe8d-c5b3-4bfc-af19-fb9866a26408)
+![Category](https://github.com/user-attachments/assets/cb0690a1-f1c1-4db8-aa22-b595696158ad)
+![Quiz-Section](https://github.com/user-attachments/assets/d08deb04-c7f4-4fa2-be4f-52665d44a6ae)
+![Result-Section](https://github.com/user-attachments/assets/a21efb5b-943e-4125-9d44-a1e577310524)
+
 
 🧠 JavaScript QuizMaster: Test & Boost Your JS Skills! 🚀
 Are you ready to level up your JavaScript knowledge? JavaScript QuizMaster is a fun, interactive quiz platform that puts your coding skills to the test across key JavaScript concepts. Perfect for beginners brushing up on basics or seasoned coders fine-tuning their expertise, this app covers everything you need to master JavaScript—one question at a time!
