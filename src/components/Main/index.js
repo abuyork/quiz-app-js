@@ -5,7 +5,6 @@ import {
   Segment,
   Item,
   Dropdown,
-  Divider,
   Button,
   Message,
 } from 'semantic-ui-react';
@@ -14,9 +13,6 @@ import mindImg from '../../images/javascript-logo.svg';
 
 import {
   CATEGORIES,
-  NUM_OF_QUESTIONS,
-  DIFFICULTY,
-  QUESTIONS_TYPE,
   COUNTDOWN_TIME,
 } from '../../constants';
 import { shuffle } from '../../utils';
@@ -26,9 +22,6 @@ import mockQuestions from '../Quiz/mock.json';
 
 const Main = ({ startQuiz }) => {
   const [category, setCategory] = useState('0');
-  const [numOfQuestions, setNumOfQuestions] = useState(15);
-  const [difficulty, setDifficulty] = useState('easy');
-  const [questionsType, setQuestionsType] = useState('0');
   const [countdownTime, setCountdownTime] = useState({
     hours: 0,
     minutes: 120,
@@ -36,7 +29,7 @@ const Main = ({ startQuiz }) => {
   });
   const [processing, setProcessing] = useState(false);
   const [error, setError] = useState(null);
-  const [offline, setOffline] = useState(false);
+  const [offline] = useState(false);
 
   const handleTimeChange = (e, { name, value }) => {
     setCountdownTime({ ...countdownTime, [name]: value });
@@ -98,7 +91,7 @@ const Main = ({ startQuiz }) => {
           // For Scope and Contexts category, use all questions
           const questionsToTake = selectedCategoryData.category === 'Scope and Contexts' 
             ? allQuestions.length 
-            : numOfQuestions;
+            : 10;
 
           // Shuffle all questions first
           const shuffledQuestions = shuffle([...allQuestions]);
