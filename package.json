@@ -2,11 +2,8 @@
   "name": "quiz-app",
   "version": "6.0.0",
   "private": true,
-  "author": {
-    "name": "Alex Dufresne",
-    "url": "https://abuyork.github.io"
-  },
-  "homepage": "https://abuyork.github.io/quiz-app/",
+  "main": "index.js",
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
