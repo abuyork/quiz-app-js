@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f8793941-3836-445b-a81d-2deeb0f67aa8/deploy-status)](https://app.netlify.com/sites/js-quiz-devex/deploys)
+
 ## Development
 
 To get a local copy of the code, clone it using git:
